@@ -10,7 +10,7 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-  const choice = window.prompt("Rock / Paper / Scissors").toLowerCase();
+  const choice = prompt("Rock / Paper / Scissors").toLowerCase();
   return choice;
 }
 
